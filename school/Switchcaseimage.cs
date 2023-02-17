@@ -25,6 +25,8 @@ namespace school
             pictureBox1.Image = Resources.yok;
             pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
             comboBox1.SelectedItem = "Orjinal";
+            Form1 f1=new Form1();
+            f1.Show();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
